@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply antialiased font-sans;
+  }
+  
+  /* Smooth transitions para links y botones */
+  a, button {
+    @apply transition-colors duration-200;
+  }
+}
