@@ -1,32 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MainContainer, Content, Title, ButtonGroup } from './WelcomePage.styles';
-import appLogo from '../../../../assets/react.svg'; // Ajusta la ruta
+import Navbar from '../../components/Navbar';
 
 const WelcomePage = () => {
   return (
-    <MainContainer>
-      <Content>
-        <img src={appLogo} alt="App Logo" className="w-32 h-32 mb-8" />
-        <Title>Bienvenido a la Aplicación</Title>
-        
-        <ButtonGroup>
-          <Link
-            to="/login"
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Iniciar Sesión
-          </Link>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      
+      <div className="flex-1 flex items-center justify-center bg-gray-50 py-16 px-4">
+        <div className="text-center max-w-4xl">
+          <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            Transforma tus ideas en realidad
+          </h1>
+          <p className="text-xl text-gray-600 mb-8">
+            La plataforma colaborativa para gestionar proyectos creativos
+          </p>
           
-          <Link
-            to="/singup"
-            className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:bg-gray-50 transition-colors"
-          >
-            Crear Cuenta
-          </Link>
-        </ButtonGroup>
-      </Content>
-    </MainContainer>
+          <div className="mt-10">
+            <Link
+              to="/singup"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg hover:bg-blue-700 transition-colors duration-200"
+            >
+              Comenzar Gratis
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
