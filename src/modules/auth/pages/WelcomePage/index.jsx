@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MainContainer, Content, Title, ButtonGroup } from './WelcomePage.styles';
-import appLogo from '../../../../assets/logo.svg'; // Ajusta la ruta
+import appLogo from '../../../../assets/react.svg'; // Ajusta la ruta
 
 const WelcomePage = () => {
   return (

@@ -1,8 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ProtectedRoutes from './protectedRoutes';
-import {
-  WelcomePage,
-} from '../modules/auth/pages';
+import WelcomePage from '../modules/auth/pages/WelcomePage/index.jsx';
 
 const AppRoutes = () => {
   return (

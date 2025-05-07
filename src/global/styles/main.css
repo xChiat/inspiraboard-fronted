@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom base styles */
 @layer base {
   body {
-    @apply antialiased font-sans;
+    @apply font-[ui-sans-serif] antialiased;
   }
   
-  /* Smooth transitions para links y botones */
   a, button {
     @apply transition-colors duration-200;
   }
