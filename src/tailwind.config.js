@@ -1,8 +1,9 @@
 module.exports = {
     content: [
       "./index.html",
-      "./src/modules/**/components/*.{js,ts,jsx,tsx}",
-      "./src/modules/**/pages/**/*.{js,ts,jsx,tsx}",
+      "./src/modules/**/**/*.{js,ts,jsx,tsx}",
+      "./src/modules/**/**/**/*.{js,ts,jsx,tsx}",
+      "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
       fontFamily: {

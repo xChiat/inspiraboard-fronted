@@ -1,13 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  body {
-    @apply font-[ui-sans-serif] antialiased;
-  }
-  
-  a, button {
-    @apply transition-colors duration-200;
-  }
-}
+@import "tailwindcss";
