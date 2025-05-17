@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/react.svg'; // Ajusta la ruta
+import logo from '../../../assets/react.svg'; 
 
 const Navbar = () => {
   return (
@@ -12,13 +12,13 @@ const Navbar = () => {
       <div className="flex items-center">
         <Link
           to="/login"
-          className="px-4 py-2 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+          className="px-4 py-2 text-gray-600 rounded-lg hover:bg-gray-300 hover:text-neutral-950 transition-colors duration-200"
         >
           Iniciar Sesión
         </Link>
         <Link
           to="/singup"
-          className="ml-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
+          className="ml-4 px-6 py-2 bg-yellow-400 text-neutral-950 rounded-lg hover:bg-gray-800 hover:text-yellow-400 transition-colors duration-200"
         >
           Crear Cuenta
         </Link>

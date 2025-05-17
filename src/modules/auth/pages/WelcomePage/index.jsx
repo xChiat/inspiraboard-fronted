@@ -19,7 +19,7 @@ const WelcomePage = () => {
           <div className="mt-10">
             <Link
               to="/singup"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg hover:bg-blue-700 transition-colors duration-200"
+              className="bg-yellow-400 text-neutral-950 px-8 py-4 rounded-lg text-lg hover:bg-gray-800 hover:text-yellow-400 transition-colors duration-200"
             >
               Comenzar Gratis
             </Link>
